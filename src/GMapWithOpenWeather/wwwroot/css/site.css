@@ -41,6 +41,24 @@ textarea {
     width: 100%;
 }
 
+.titler {
+    display: flex;
+    height: 80px; /* Or whatever */
+}
+
+
+.parent {
+    display: flex;
+    height: 500px; /* Or whatever */
+}
+
+.child {
+    width: 850px;  /* Or whatever */
+    height: 450px; /* Or whatever */
+    margin: auto;  /* Magic! */
+}
+
+
 /* Hide/rearrange for smaller screens */
 @media screen and (max-width: 767px) {
   /* Hide captions */
@@ -48,3 +66,5 @@ textarea {
     display: none
   }
 }
+
+
